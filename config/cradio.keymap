@@ -44,7 +44,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp LEFT_ALT &lt 2 ENTER    &mt LCTRL SPACE  &lt 1 BSPC
+                                           &kp LEFT_ALT &lt 2 ENTER   &lt LSHFT SPACE  &lt 1 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -61,7 +61,7 @@
         //│ COPY     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
            &kp LC(C) &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans     &kp ESC        &kp LCTRL   &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
