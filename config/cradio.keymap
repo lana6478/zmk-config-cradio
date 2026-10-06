@@ -10,6 +10,11 @@
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
 #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
 
+// Tap then quickly hold a layer-tap key to repeat its key (e.g. hold-to-delete with Backspace)
+&lt {
+    quick-tap-ms = <200>;
+};
+
 / {
     behaviors {
         ht: hold_tap {
